@@ -24,7 +24,7 @@ public class P3_Task_01_VariablesAndDataTypesInJava {
 		double d;
 		char e;
 		int a=5; //Local Variable
-		System.out.println("This is Dislay Method!");
+		System.out.println("This is Display Method!");
 		System.out.println(a);
 
 	}
