@@ -7,7 +7,7 @@ public class P13_Assignment_Questions_Unit_02 {
 		obj.abstractClassCall();
 		obj.overloadingAndOverriding();
 		obj.accessProtectionInJava();
-		obj.interfaceImplementation();
+		//obj.interfaceImplementation();
 
 	}
 

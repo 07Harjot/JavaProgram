@@ -31,7 +31,7 @@ public class P08_Task01_InheritanceInJava {
 
 	
 	public static void main(String[] args) {
-	Three g = new Three();
+	Three g =new Three(4);
 	g.methodOne();
 	g.methodTwo();
 	g.methodOne();

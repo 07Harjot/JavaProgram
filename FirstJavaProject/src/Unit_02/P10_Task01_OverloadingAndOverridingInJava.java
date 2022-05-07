@@ -8,7 +8,8 @@ public class P10_Task01_OverloadingAndOverridingInJava {
 		System.out.println("add() with 2 parameters");
 		System.out.println(obj.add(4,6));
 		
-		System.out.println("add() with 3 parameters");
+		InheritFirstOne obj1 = new InheritFirstOne();
+       System.out.println("add() with 3 parameters");
 		System.out.println(obj1.add(4,6,7));
 		
 		InheritFirstOne obj2 = new InheritFirstOne();

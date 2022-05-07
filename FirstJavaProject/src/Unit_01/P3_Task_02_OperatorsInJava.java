@@ -26,6 +26,7 @@ public class P3_Task_02_OperatorsInJava {
 		obj.TernaryOperator();
 		obj.AssignmentOperator();
 	}
+}
 	class OperatorsInJava {
 		void UnaryOperator() {
 			
@@ -126,4 +127,4 @@ public class P3_Task_02_OperatorsInJava {
 		}
 	}
 	
-	}
+

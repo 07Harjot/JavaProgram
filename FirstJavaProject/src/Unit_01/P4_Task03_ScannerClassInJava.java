@@ -2,7 +2,7 @@ package Unit_01;
 import java.util.Scanner;
 /*When user takes input from the console!
  
- nextline()  Read user inptu [to read Strings]
+ nextline()  Read user input [to read Strings]
  next()      Read next token from the input entered by the user
  
  nextBoolean() Reads a boolean value from the user

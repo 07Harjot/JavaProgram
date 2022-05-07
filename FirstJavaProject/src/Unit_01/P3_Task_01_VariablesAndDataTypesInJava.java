@@ -2,7 +2,7 @@ package Unit_01;
 /* 	Types of variables:
 			-In java,there are three types of variables:
 			
-	# Local Variables- declared nside the body of a method
+	# Local Variables- declared inside the body of a method
 	
 	# Instance Variables-Instance variables are defined without the static Keyword,
 			-They are defined outside a method declaration.

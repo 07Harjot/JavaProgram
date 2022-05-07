@@ -31,8 +31,8 @@ public class P11_Task02_ImportingAndPackagesInJava {
 		System.out.println(pow(2,2));
 		System.out.println(abs(6.3));
 		
-		SampleClass1 obj = new SampleClass1();
-		System.out.println(obj.a);
+		//SampleClass1 obj = new SampleClass1();
+		//System.out.println(obj.a);
 
 	}
 
