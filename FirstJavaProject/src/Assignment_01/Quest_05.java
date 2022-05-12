@@ -1,7 +1,5 @@
 package Assignment_01;
 import java.util.*;
-
-
 class Employee
 {
 	String name;
@@ -9,7 +7,6 @@ class Employee
 	String Department;
 	int salary;
 	static int Total_sal = 0;
-	
 	Employee()
 	{
 	}
@@ -28,17 +25,13 @@ class Employee
 		}
 		Total_sal += sal;
 	}
-	
 	void Total_salary()
 	{
 		System.out.println("Total salary is "+Total_sal);
 	}
-	
 }
-
 public class Quest_05 {
-
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		System.out.println("Harjot Singh_F_200111196");
 		Employee arr[] = new Employee[8];
 		String s;
@@ -53,14 +46,10 @@ public class Quest_05 {
 			age = sc.nextInt();
 			depart = sc.next();
 			salary = sc.nextInt();
-			
 			arr[i] = new Employee(s, age, depart, salary);
-			
-		}
+			}
 		// Total salary
 		Employee result = new Employee();
 		result.Total_salary();
-
-	}
-
+}
 }
