@@ -110,7 +110,7 @@ public class P14_ExceptionalHanding {
 
 	public static void main(String[] args) {
 
-		ABCDE obj = new ABCDE();
+		//ABCDE obj = new ABCDE();
 		//obj.BasicException1();
 		//obj.BasicException2();
 		//obj.InputMismatchException();
