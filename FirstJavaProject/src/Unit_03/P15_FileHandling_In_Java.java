@@ -21,22 +21,22 @@ public class P15_FileHandling_In_Java {
 
 	public static void main(String[] args) throws IOException {
 
-		ABCDEF obj = new ABCDEF();
-		obj.takeInputFromAFile();
-		// obj.saveOutputIntoAFile();
-		// obj.saveLogOfProgram();
+		ABCDEFG obj = new ABCDEFG();
+		//obj.takeInputFromAFile();
+		 obj.saveOutputIntoAFile();
+		 //obj.saveLogOfProgram();
 
 	}
 
 }
 
-class ABCDEF {
+class ABCDEFG {
 	
 	static int a = 10;
 
 	void takeInputFromAFile() throws IOException {
 
-		String path = "/Users/akashchauhan/git/FirstJavaBasedProject/JavaBasicProject/src/Unit_03/Input.txt";
+		String path = "C:\\Users\\acer\\git\\JavaProgram\\FirstJavaProject\\src\\Unit_03/Input.txt";
 		File file = new File(path);
 
 		BufferedReader br = new BufferedReader(new FileReader(file));
@@ -69,7 +69,7 @@ class ABCDEF {
 		FileWriter myObj = null;
 
 		try {
-			myObj = new FileWriter("output.txt");
+			myObj = new FileWriter("C:\\Users\\acer\\git\\JavaProgram\\FirstJavaProject\\src\\Unit_03\\Output.txt");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -95,7 +95,7 @@ class ABCDEF {
 		FileWriter myObj = null;
 
 		try {
-			myObj = new FileWriter("log.txt",true);
+			myObj = new FileWriter("C:\\Users\\acer\\git\\JavaProgram\\FirstJavaProject\\src\\Unit_03\\log.txt",true);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
