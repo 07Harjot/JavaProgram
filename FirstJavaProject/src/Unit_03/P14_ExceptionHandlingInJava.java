@@ -206,7 +206,7 @@ class ABCDEF
 		}
 	}
 
-	void manualExceptionThrow() 
+	void manualExceptionThrow()
 	{
 
 		try 
